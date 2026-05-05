@@ -52,7 +52,7 @@ This project builds a credit scoring model to predict whether a customer has **g
 
 ### Target Distribution
 
-![Target Distribution](https://raw.githubusercontent.com/chaudhayabdulah786/german-credit-risk-classification/main/images/credit_risk_class.png)
+![Target Distribution](https://raw.githubusercontent.com/chaudhayabdullah786/german-credit-risk-classification/main/credit%20risk%20class.png)
 
 | Class | Count | Percentage |
 |-------|-------|------------|
@@ -67,7 +67,7 @@ This project builds a credit scoring model to predict whether a customer has **g
 
 ### Model Performance Comparison
 
-![Model Performance](https://raw.githubusercontent.com/chaudhayabdulah786/german-credit-risk-classification/main/images/model_performance.png)
+![Model Performance](https://raw.githubusercontent.com/chaudhayabdullah786/german-credit-risk-classification/main/model%20performance.png)
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |-------|----------|-----------|--------|----------|---------|
@@ -77,7 +77,7 @@ This project builds a credit scoring model to predict whether a customer has **g
 
 ### ROC Curve
 
-![ROC Curve](https://raw.githubusercontent.com/chaudhayabdulah786/german-credit-risk-classification/main/images/roc_curve.png)
+![ROC Curve](https://raw.githubusercontent.com/chaudhayabdullah786/german-credit-risk-classification/main/roc%20curve.png)
 
 ### 🏆 Best Model: Logistic Regression
 
@@ -93,7 +93,7 @@ This project builds a credit scoring model to predict whether a customer has **g
 
 ### Top 10 Most Important Features
 
-![Feature Importance](https://raw.githubusercontent.com/chaudhayabdulah786/german-credit-risk-classification/main/images/feature.png)
+![Feature Importance](https://raw.githubusercontent.com/chaudhayabdullah786/german-credit-risk-classification/main/feature.png)
 
 | Rank | Feature | Coefficient | Impact |
 |------|---------|-------------|--------|
@@ -159,7 +159,7 @@ This project builds a credit scoring model to predict whether a customer has **g
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/chaudhayabdulah786/german-credit-risk-classification.git
+git clone https://github.com/chaudhayabdullah786/german-credit-risk-classification.git
 cd german-credit-risk-classification
 ```
 
@@ -170,7 +170,7 @@ pip install -r requirements.txt
 
 **3. Launch Jupyter Notebook**
 ```bash
-jupyter notebook german_credit_scoring.ipynb
+jupyter notebook project-credit-scoring-german-credit.ipynb
 ```
 
 ### `requirements.txt`
@@ -252,24 +252,14 @@ else:
 ```
 german-credit-risk-classification/
 │
-├── README.md                            # Project documentation
-├── german_credit_scoring.ipynb          # Main notebook — full pipeline
-├── requirements.txt                     # Python dependencies
-├── LICENSE                              # MIT License
-│
-├── images/
-│   ├── credit_risk_class.png            # Target distribution chart
-│   ├── model_performance.png            # Model comparison chart
-│   ├── roc_curve.png                    # ROC curve visualization
-│   └── feature.png                      # Feature importance chart
-│
-├── models/
-│   ├── german_credit_model.pkl          # Trained Logistic Regression model
-│   ├── feature_scaler.pkl               # Fitted StandardScaler
-│   └── feature_names.pkl                # Ordered feature columns
-│
-└── notebooks/
-    └── exploratory_analysis.ipynb       # EDA notebook
+├── README.md                                     # Project documentation
+├── project-credit-scoring-german-credit.ipynb    # Main notebook — full pipeline
+├── requirements.txt                              # Python dependencies
+├── LICENSE                                       # MIT License
+├── credit risk class.png                         # Target distribution chart
+├── model performance.png                         # Model comparison chart
+├── roc curve.png                                 # ROC curve visualization
+└── feature.png                                   # Feature importance chart
 ```
 
 ---
@@ -299,7 +289,7 @@ german-credit-risk-classification/
 
 **Muhammad Abdullah** — Data Analyst & Machine Learning Engineer
 
-[![GitHub](https://img.shields.io/badge/GitHub-chaudhayabdulah786-181717?logo=github)](https://github.com/chaudhayabdulah786)
+[![GitHub](https://img.shields.io/badge/GitHub-chaudhayabdullah786-181717?logo=github)](https://github.com/chaudhayabdullah786)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad_Abdullah-0A66C2?logo=linkedin)](https://www.linkedin.com/in/muhammad-abdullah-65608a248)
 [![Portfolio](https://img.shields.io/badge/Portfolio-pythonanywhere.com-orange)](https://mabdullahdataanalyst786.pythonanywhere.com/)
 
